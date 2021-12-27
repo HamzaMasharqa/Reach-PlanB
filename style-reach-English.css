@@ -107,10 +107,7 @@ display: flex;
 
   }
   
-  .nav-links  li a.active {
-    color: white;
-    background-color: #04AA6D;
-  }
+
   .slider-show{
 background-color: black;
 width: 100%;
@@ -260,11 +257,7 @@ margin-bottom: 1rem;
 height: 700px;
 }
 
-.sidebars ul{
-    /* max-width: 100%; */
 
-
-}
 .sidebar-titles{
 display: flex;
 
@@ -372,9 +365,7 @@ align-items: flex-end;
     width: 70%;
     margin: auto ;
 }
-.logo-slider{
 
-}
 
 .partners-logo-slider-header{
 background-color: #F2F2F2;
