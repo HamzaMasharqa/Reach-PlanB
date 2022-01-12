@@ -7,5 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class login extends Model
 {
+    public $table = 'logins';
+
     use HasFactory;
 }

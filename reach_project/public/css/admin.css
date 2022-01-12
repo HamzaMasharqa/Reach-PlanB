@@ -1,0 +1,306 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Tajawal", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Tajawal", sans-serif;
+}
+
+
+.head-nav {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7%;
+  background: #F7A316;
+  border-radius: 0 0 50% 50%/0 0 100% 100%;
+}
+.head-nav ul {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 0.5%;
+  list-style: none;
+}
+.head-nav ul li a {
+  text-decoration: none;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-bottom {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5%;
+  background: #0189D1;
+  border-radius: 50% 50% 0 0/100% 100% 0 0;
+}
+
+.main {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+  background: -webkit-linear-gradient(white, #F7A316);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tbl-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 70%;
+  margin: auto;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  border: border-box;
+}
+
+.content-table thead tr {
+  background-color: #F7A316;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+.content-table th, .content-table td {
+  padding: 12px 15px;
+  text-align: center;
+}
+.content-table tbody tr {
+  border-bottom: 1px solid white;
+}
+.content-table tbody tr:nth-of-type(even) {
+  background-color: white;
+}
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #F7A316;
+}
+
+.logo-reach {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.fas {
+  font-weight: bold;
+  color: #0189D1;
+  font-weight: 900;
+  font-size: 35px;
+}
+.fas:hover:not(.active) {
+  color: #F7A316;
+}
+
+.far {
+  font-weight: bold;
+  color: #0189D1;
+  font-weight: 900;
+  font-size: 35px;
+}
+.far:hover:not(.active) {
+  color: #F7A316;
+}
+
+.content-table thead .new-post button {
+  width: 70%;
+  background-color: #0189D1;
+  color: #F2F2F2;
+  margin: 8px 0;
+  border: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.head-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.inputs-news {
+  text-align: center;
+  width: 100%;
+}
+
+.text-title-news {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+.text-title-news input {
+  display: flex;
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.text-body-news {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+.text-body-news input {
+  display: flex;
+  width: 70%;
+  height: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.button-add {
+  display: flex;
+  width: 90%;
+  justify-content: flex-end;
+}
+.button-add button {
+  background-color: #F7A316;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.file-news input {
+  background-color: #0189D1;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.text-title-news input {
+  display: flex;
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.text-body-news {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+.text-body-news input {
+  display: flex;
+  width: 70%;
+  height: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.button-add {
+  display: flex;
+  width: 90%;
+  justify-content: flex-end;
+}
+.button-add button {
+  background-color: #F7A316;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.file-news input {
+  background-color: #0189D1;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.active-my-active {
+  text-decoration: none;
+  background-color: #0189D1 !important;
+  color: white !important;
+  border-color: #0189D1 !important;
+}
+
+.pagination {
+  text-decoration: none;
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: flex-end;
+}
+.pagination .pager {
+  text-decoration: none;
+  color: white;
+  padding-top: 3%;
+  display: flex;
+  list-style: none;
+  width: 20%;
+  justify-content: space-between;
+}
+.pagination .pager li {
+  text-decoration: none;
+  padding: 3%;
+  background-color: orange;
+  border-radius: 4px;
+}
+.pagination .pager li a {
+  text-decoration: none;
+  color: white;
+}
+
+.section{
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 10%;
+}

@@ -11,6 +11,8 @@
       </style>
    </head>
    <body>
+   <form action ="/login" method ="POST" enctype = "multipart/form-data">
+            @csrf
       <div class="box_holder">
          <div class="box_middl_holder">
             <div class="box_middle_form">
@@ -24,10 +26,10 @@
           
 
                   <div class="second_box_holder">
-        <input type="text" placeholder="User Name..">
-            <input type="text" placeholder="Password..">
+        <input type="text" name="username"  placeholder="User Name.." required>
+            <input type="password" name="password" placeholder="Password.." required>
                <div class="logo_reach">
-               <button>Submit</button>      
+               <button >Submit</button>      
                        </div>
 
                   </div>
@@ -35,5 +37,6 @@
             </div>
          </div>
       </div>
+</form>
    </body>
 </html>

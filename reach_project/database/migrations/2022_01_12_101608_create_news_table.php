@@ -1,10 +1,10 @@
-<?php
 
+<?php
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateLoginsTable extends Migration
+class CreateNewsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,11 @@ class CreateLoginsTable extends Migration
      */
     public function up()
     {
-        Schema::create('logins', function (Blueprint $table) {
+        Schema::create('news', function (Blueprint $table) {
             $table->id();
-            $table->String('Name');
-            $table->String('Sure Name');
-            $table->String('Password');
-
-            $table->timestamps();
+            $table->string('news_title');
+            $table->TEXT('news_body');
+            $table->string('news_picture');
         });
     }
 
@@ -30,6 +28,7 @@ class CreateLoginsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('logins');
+        Schema::dropIfExists('news');
     }
 }
+

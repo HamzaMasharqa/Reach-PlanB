@@ -187,59 +187,20 @@
                         <div class="sidebar-title-icon">
                            <img src="reachimages/18.png" alt="" />
                         </div>
+                     </div>@foreach($news as $new)
+                     <li>
+                        <div class="text-news">
+                           <div class="head-news">
+                           $new->news_title
+                           </div>
+                           $new->news_body   
                      </div>
-                     <li>
-                        <div class="text-news">
-                           <div class="head-news">
-                              عنوان المقالة أو التدريب بحيث لا يتجاوز سكر او سطرين على
-                              الأكثر
-                           </div>
-                           نص مقتضب عن الخبر بحيث لا يتجاوزسطر او سطرين على الأكثر نص
-                           مقتضب عن الخبر بحيث
-                        </div>
                         <div class="images-news">
-                           <img src="reachimages/latest4.jpg" alt="" />
+                           <img src="{{'public/images/'.$new->news_picture}}" alt="" />
                         </div>
                      </li>
-                     <li>
-                        <div class="text-news">
-                           <div class="head-news">
-                              عنوان المقالة أو التدريب بحيث لا يتجاوز سكر او سطرين على
-                              الأكثر
-                           </div>
-                           نص مقتضب عن الخبر بحيث لا يتجاوزسطر او سطرين على الأكثر نص
-                           مقتضب عن الخبر بحيث
-                        </div>
-                        <div class="images-news">
-                           <img src="reachimages/latest4.jpg" alt="" />
-                        </div>
-                     </li>
-                     <li>
-                        <div class="text-news">
-                           <div class="head-news">
-                              عنوان المقالة أو التدريب بحيث لا يتجاوز سكر او سطرين على
-                              الأكثر
-                           </div>
-                           نص مقتضب عن الخبر بحيث لا يتجاوزسطر او سطرين على الأكثر نص
-                           مقتضب عن الخبر بحيث
-                        </div>
-                        <div class="images-news">
-                           <img src="reachimages/latest4.jpg" alt="" />
-                        </div>
-                     </li>
-                     <li>
-                        <div class="text-news">
-                           <div class="head-news">
-                              عنوان المقالة أو التدريب بحيث لا يتجاوز سكر او سطرين على
-                              الأكثر
-                           </div>
-                           نص مقتضب عن الخبر بحيث لا يتجاوزسطر او سطرين على الأكثر نص
-                           مقتضب عن الخبر بحيث
-                        </div>
-                        <div class="images-news">
-                           <img src="reachimages/latest4.jpg" alt="" />
-                        </div>
-                     </li>
+                     @endforeach
+                    
                   </ul>
                </div>
             </div>

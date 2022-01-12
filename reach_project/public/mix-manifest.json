@@ -1,6 +1,7 @@
 {
     "/js/app.js": "/js/app.js",
     "/css/style-english.css": "/css/style-english.css",
+    "/css/admin.css": "/css/admin.css",
     "/css/admin_login.css": "/css/admin_login.css",
     "/css/about.css": "/css/about.css",
     "/css/style-arabic.css": "/css/style-arabic.css"

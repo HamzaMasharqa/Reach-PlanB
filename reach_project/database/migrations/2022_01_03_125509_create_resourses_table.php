@@ -14,7 +14,7 @@ class CreateResoursesTable extends Migration
     public function up()
     {
         Schema::create('resourses', function (Blueprint $table) {
-            $table->id('resourse_id');
+            $table->id();
             $table->string('resourse_head');
             $table->string('resourse_discription');
             $table->string('resourse_type');

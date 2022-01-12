@@ -16,6 +16,7 @@ mix.js('resources/js/app.js', 'public/js')
 
         .sass('resources/sass/about.scss', 'public/css/about.css') 
         .sass('resources/sass/admin_login.scss', 'public/css/admin_login.css') 
+        .sass('resources/sass/admin.scss', 'public/css/admin.css') 
 
         .sass('resources/sass/style-english.scss', 'public/css/style-english.css');   
 
